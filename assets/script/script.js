@@ -53,7 +53,7 @@ header.innerHTML = `
 function showHeroes(hero) {
     let allHeroes = document.getElementById('allHeroes')
     allHeroes.innerHTML += `
-    <div class="col-3 border shadow p-3">
+    <div class="col-lg-3 col-10 mt-3 border shadow p-3">
         <h3 class="text-center">${hero.name}</h3>
         <ul>
             <li><b>Secret identity :</b> ${hero.secretIdentity}</li>
